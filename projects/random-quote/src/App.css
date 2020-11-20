@@ -21,8 +21,7 @@ body {
 #header:hover {}
 
 #quote-box {
-    border-style: groove;
-    border: 5px rgb(255, 255, 255);
+    padding: 0;
 }
 
 #text {
