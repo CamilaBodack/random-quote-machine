@@ -1,5 +1,6 @@
 import React from 'react'
 import Behavior from './Behavior'
+import ReactDOM from 'react-dom'
 
 let quotes = [
     {
@@ -39,10 +40,11 @@ let quotes = [
     }
 ]
 
-let quotesLen = quotes.length
-let randomInt = () => console.log('oi');
+let quotesLen = quotes.length;
+let randomInt = Math.floor(Math.random() * (quotesLen));
+let quote = () => quotes[randomInt]
 
 
 export default function(){
-    return <button id="new-quote" onClick={randomInt} className="btn btn-default">New Quote</button>
+    return <button id="new-quote" onClick={quote} className="btn btn-default">New Quote</button>
 }
