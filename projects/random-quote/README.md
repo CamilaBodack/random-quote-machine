@@ -1,1 +1,1 @@
-# Random Nihilist Phrases
+# Random Quotes
