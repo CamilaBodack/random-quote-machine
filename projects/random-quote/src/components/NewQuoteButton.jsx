@@ -1,5 +1,5 @@
 import React from 'react'
 
 export default function(){
-    return <p>Nihilist Phrases</p>
+    return <button id="new-quote">New Quote</button>
 }
