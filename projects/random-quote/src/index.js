@@ -1,17 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Title from './components/Title'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+{/*const title =
+const header = < header > Nihilist Phrases To Feed Your Everyday Void < /header>
+const quoteBox = <div id = "quote-box" > <p id = "text" > <span id = "author" ></span></p ></div>
+const buttonNewQuote = <button id = "new-quote" type="button" name="button" > New Quote</button >
+const tweetQuote = <a id = "tweet-quote" href = "#" ></a>*/}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+ReactDOM.render(<Title />, document.getElementById('root'));
