@@ -1,11 +1,10 @@
 import React , { Fragment } from 'react'
-import NewQuoteButton from './NewQuoteButton'
+import NewQuote from './NewQuote'
 
 export default function() {
     return <Fragment>
         <div id="quote-box">
-            <p id="author">aaaaaaa  aaaaaaa</p>
-            <NewQuoteButton />
+            <NewQuote />
         </div>
     </Fragment>
 }

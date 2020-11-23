@@ -21,6 +21,7 @@ body{
 
 #text{
     display: block;
+    padding: auto;
     margin: auto;
     box-sizing: border-box;
     color: inherit;
