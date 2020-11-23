@@ -14,35 +14,46 @@ body{
     display: flex;
     flex-flow: column;
     width: 70%;
-    height: 50%;
-    margin: 35vh auto auto auto;
+    height: 40%;
+    margin: 25vh auto auto auto;
     border: 1px solid rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
 }
 
 #text{
     display: block;
     padding: auto;
-    margin: auto;
+    margin: 10px 10px 10px 10px;
     box-sizing: border-box;
     color: inherit;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
 }
 
 #author{
     color: rgb(39, 208, 165);
     text-align: center;
-    font-size: 1em;
+    font-size: 20px;
+    margin: 2vh auto auto auto;
 }
 
 
 #new-quote{
-    display: inline;
-    margin: auto auto 3vh auto;
-    padding: 2px 2px 2px 5px;
-    width: 20%;
+    display: flex;
+    flex-flow: row;
+    margin: 5vh auto 5vh auto;
+    padding: 10px 15px 10px 15px;
+    width: auto;
     height: auto;
-    font-size: 15px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
     text-align: center;
+}
+
+#tweet-quote{
+    margin: 5px 5px 25px 15px;
+    padding: 5px 5px 5px 5px;
+    width: 5vw;
+    height: 6vh;
+    font-size: 25px;
 }

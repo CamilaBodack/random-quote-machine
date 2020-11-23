@@ -5,7 +5,7 @@ const quotes = [
         },
         {
             "quote": "It is not your paintings I like, it is your painting.",
-            "authot":"Albert Camus"
+            "author":"Albert Camus"
         },
         {
             "quote":"You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.",
